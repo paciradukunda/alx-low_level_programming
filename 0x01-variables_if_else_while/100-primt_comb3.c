@@ -1,14 +1,28 @@
 #include <stdio.h>
-
-/* The following function print all possible double digit combination */
-
+/**
+ * main - Entry
+ *
+ * Return: always 0
+ */
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	int j;
+	int i;
+
+	while (j <= 48)
 	{
-		for (int x = 
-		putchar(i);
-		putchar(44);
+		for (i = 48; i <= 57; i++)
+		{
+			putchar(j);
+			if (j % i == 0)
+			{
+				continue;
+			}
+			putchar(',');
+			putchar(' ');
+			j++;
+		}
 	}
+	putchar('\n');
 	return (0);
 }

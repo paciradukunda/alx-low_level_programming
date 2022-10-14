@@ -1,7 +1,9 @@
 #include <stdio.h>
-
-/* The following program prints numbers from 0 to 16 in base 16 */
-
+/**
+ * main -entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int i;
