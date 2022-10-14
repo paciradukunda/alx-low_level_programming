@@ -1,13 +1,21 @@
 #include <stdio.h>
 
-/* The following function prints alphabets in lower case*/
+/**
+  * main -Entry point
+  *
+  * Return: Always 0
+ */
 
 int main(void)
 {
-		char alpbet[] = "abcdefghijklmnopqrstuvwxyz";
-		long unsigned int i = 0;
-		for (i = 0; i < (sizeof(alpbet)-2); i++)
-			putchar(alpbet[i]);
-		return (0);
-}
+	char n;
 
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		putchar(n);
+	}
+
+	putchar ('\n');
+
+	return (0);
+}

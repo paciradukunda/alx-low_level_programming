@@ -1,16 +1,20 @@
 #include <stdio.h>
-
-/* The following function print all possible sigle digit combination */
-
+/**
+ * main -entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int i;
-	for ( i = 48; i <= 57; i++)
-	{	if (i == 57)
+
+	for (i = 48; i <= 57; i++)
+	{
+		if (i == 57)
 	       	{
 			putchar(i);
 			break;
-		}	
+		}
 		putchar(i);
 		putchar(',');
 	}
