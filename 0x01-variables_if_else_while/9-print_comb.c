@@ -4,10 +4,16 @@
 
 int main(void)
 {
-	for (char i = '0'; i < '10'; i++)
-	{
+	int i;
+	for ( i = 48; i <= 57; i++)
+	{	if (i == 57)
+	       	{
+			putchar(i);
+			break;
+		}	
 		putchar(i);
-		putchar(44);
+		putchar(',');
 	}
+	putchar('\n');
 	return (0);
 }
