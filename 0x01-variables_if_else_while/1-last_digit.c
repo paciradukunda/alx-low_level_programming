@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * The following function gets a randomly generated int
- * and prints its last digit
+ * main - Entry Point
+ * Description: Write a program that prints all possible
+ * different combinations of two digits
+ * Return: 0
  */
 int main(void)
 {
