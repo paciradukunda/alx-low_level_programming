@@ -2,6 +2,8 @@
 /**
   * print_to_98 - prints all natural nnumbers form n to 98
   *
+  * @n: int input
+  *
   * Return: no return
   */
 

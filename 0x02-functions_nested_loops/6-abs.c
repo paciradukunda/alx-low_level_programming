@@ -1,12 +1,17 @@
 #include "main.c"
-#include <maths.h>
+
 /**
   * _abs - return absolute value of int
+  *
+  * @i: integer number
   *
   * return: computed int
   */
 
- int _abs(int)
+ int _abs(int i)
 {
-	return (fabs(int));
+	if (i >= 0)
+		return (i);
+	else
+		return (i * -1);
 }
