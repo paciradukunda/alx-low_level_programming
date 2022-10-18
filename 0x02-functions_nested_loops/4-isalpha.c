@@ -4,8 +4,8 @@
  *
  * @c: The character in ASCII code
  *
- * return: 1 if alphabet 0 otherwise
- i*/
+ * Return: 1 if alphabet 0 otherwise
+ */
 
 int _isalpha(int c)
 {
