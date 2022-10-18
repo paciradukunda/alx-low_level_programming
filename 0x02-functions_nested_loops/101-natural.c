@@ -1,22 +1,23 @@
-#include "main.c"
+#include"main.h"
+
 /**
-  * main - calculates the sum of multiples of 3 or 5 among all numbers bellow 1024
-  *
-  * Return: the summ
-  */
+ * main - Entry point
+ *
+ * Description: computes the sum of all
+ *		the multiples of 3 or 5
+ *		below 1024 (excluded)
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-	int sum, count;
+	int sum, num;
 
-	sum = 0;
-
-	for (count = 0; count < 1024; ++count)
+	for (num = 0; num < 1024; ++num)
 	{
-		if ((count % 3 == 0) || (count % 5 == 0))
-			sum += count;
-		else
-			continue;
+		if ((num % 3 == 0) || (num % 5 == 0))
+			sum += num;
 	}
 	printf("%d\n", sum);
 
