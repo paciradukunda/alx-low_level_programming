@@ -1,7 +1,7 @@
 /**
   * _isupper - checks if charchter is uppercase
   *
-  * @c - integer input
+  * @c: integer input
   *
   * Return: 1 if uppercase 0 otherwise
   */
