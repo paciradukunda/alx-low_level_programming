@@ -1,10 +1,8 @@
-#include "main.h"
-
 /**
   * mul - multipliyies two numbers
   *
-  * @a - integer input
-  * @b - integer input
+  * @a: integer input
+  * @b: integer input
   *
   * Return: result
   */
