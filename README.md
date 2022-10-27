@@ -1,2 +1,1 @@
-# alx-low_level_programming
-First look into c programing
+INTRO TO C PROGRAMING
