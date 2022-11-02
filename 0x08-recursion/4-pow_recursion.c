@@ -5,7 +5,7 @@
   *   https://youtu.be/wAyrtLAeWvI?list=PL2_aWCzGMAwLz3g66WrxFGSXvSsvyfzCO
   *
   * @x: integer x
-  * @y: integer 
+  * @y: integer
   *
   * Return: the power of @x by @y
   */
