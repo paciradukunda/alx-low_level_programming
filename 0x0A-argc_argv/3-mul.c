@@ -4,7 +4,7 @@
   * @argc: size of array
   * @argv: arry of parameters
   *
-  * RETURN: 0 if succefull
+  * Return: 0 if succefull
   */
 
 int main(int argc, char *argv[])
@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		product = argv[1] * argv[2];
+		product = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", product);
 		return (0);
 	}
 }
