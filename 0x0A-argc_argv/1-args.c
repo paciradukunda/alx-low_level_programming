@@ -2,13 +2,14 @@
 /**
   * main - prints number of passed parameters
   * @argc: size of array
-  * @argv: arry of parameters
+  * @argv: array of parameters
   *
-  * RETURN: 0 if succefull
+  * Return: 0 if succefull
   */
 
 int main(int argc, char *argv[])
 {
+	(void)argv;
 	printf("%d\n", argc);
 	return (0);
 }
