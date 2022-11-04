@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   * main - prints all passed parameters
   * @argc: size of array

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   * main - multiplyies two numbers
   * @argc: size of array

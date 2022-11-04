@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   * main - adds two numbers
   * @argc: size of array

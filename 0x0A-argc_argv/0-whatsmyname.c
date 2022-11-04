@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
   * main - prints it own name
   * @argc: size of array
