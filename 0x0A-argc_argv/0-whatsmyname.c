@@ -4,7 +4,7 @@
   * @argc: size of array
   * @argv: arry of parameters
   *
-  * RETURN: 0 if succefull
+  * Return: 0 if succefull
   */
 
 int main(int argc, char *argv[])
