@@ -1,3 +1,4 @@
+#include "dog.h"
 /**
   * init_dog - intialize a dog data type with values
   *
