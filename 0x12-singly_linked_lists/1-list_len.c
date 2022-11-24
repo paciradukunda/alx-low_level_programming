@@ -1,19 +1,29 @@
-#include "main.h"
+#include "lists.h"
+
 /**
-  * list - function displays length of list
-  *
-  * @h: the head of linked list
-  * Return: nodes number
-  */
+ * list_len - gets the number of nodes
+ *
+ * @h: pointer to the head (first node)
+ *
+ * Return: number of nodes
+*/
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
-	int count = 0;
+	size_t node_count = 1;
 
-	while (h != NULL)
+	/*if head is null return 0 nodes*/
+	if (h == NULL)
+		return (0);
+
+	/*iterate through the nodes*/
+	while (h->next != NULL)
 	{
-		count += 1;
+		/*go to the next node*/
 		h = h->next;
+		/*count node*/
+		node_count++;
 	}
-	return (count);
+
+	return (node_count);
 }
