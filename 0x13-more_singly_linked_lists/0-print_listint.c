@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
  * print_listint - prints all nodes
- * 
- * @h: head of linked list 
- * Return: size 
+ *
+ * @h: head of linked list
+ * Return: size
  */
 size_t print_listint(const listint_t *h)
 {
