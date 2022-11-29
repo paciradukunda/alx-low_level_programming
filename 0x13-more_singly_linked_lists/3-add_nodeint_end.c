@@ -28,10 +28,11 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 			{
 				new->n = n;
 				new->next = NULL;
-				head = new;
+				(*head)->next = new;
 				return (*head);
 			}
 			*head = (*head)->next;
 		}
 	}
+	return (NULL);
 }
