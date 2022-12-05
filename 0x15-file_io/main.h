@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef MAIN_H
+#define MAIN_h
 
 #include <sys/types.h>
 #include <sys/stat.h>
